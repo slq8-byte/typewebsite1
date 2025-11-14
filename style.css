@@ -31,6 +31,10 @@
     font-family: 'Engravers Old English Bold'; 
 }
 
+
+
+
+
   /* Menu */
 
 .dropdown {
@@ -159,6 +163,7 @@ html {
  #line1 { 
 position: absolute;
 padding-top: 5px;
+
 
 
 
@@ -340,7 +345,7 @@ font-size: 50px;
  
  #font {
    color: black;
-   font-size: 9em; 
+   font-size: 9vw; 
   text-align: center;
    top: 14%; 
    left: 50%; 
@@ -769,26 +774,128 @@ div.scroll-container img {
 }
 
 
+
+
 #para3 p {
     font-size: 1.5em;
     line-height: 35px;
+     font-family: "Libre Baskerville", serif;
 
 }
 
 
 
 
-#covertitle p {
-    float: center; 
-    line-height: 1;
-    margin-left: -100px;
-    font-size: 7em;
-    border: 3px solid black; 
-    display: block; 
-    padding: 1px 22px;
-    background-color: blue;  
+#covertitle1 p {
+    white-space: no-wrap;
+    word-spacing: 1em;
+    font-family: 'Engravers Old English Bold', sans-serif;
+    color: black;
+   font-size: 10vw; 
+  text-align: center;
+   top: -23%; 
+   left: 50%; 
+   transform: translateX(-50%); 
+   position: absolute;
+   opacity: 0;
+   animation: fadeIn 4s ease-in forwards;
+   z-index: 2;
+
 
 }
+
+
+.op1{
+    opacity: 0%;
+
+
+}
+
+
+
+#covertitle2 p {
+    white-space: no-wrap;
+    word-spacing: 1em;
+    font-family: 'Engravers Old English Bold', sans-serif;
+    color: black;
+   font-size: 17vw; 
+  text-align: center;
+   top: -65%; 
+   left: 50%; 
+   transform: translateX(-50%); 
+   position: absolute;
+   opacity: 0;
+   animation: fadeIn 4s ease-in forwards;
+   z-index: 2;
+
+
+}
+
+
+.op2{
+    opacity: 0%;
+
+
+}
+
+
+#covertitle3 p {
+    white-space: no-wrap;
+    word-spacing: 1em;
+    font-family: 'Engravers Old English Bold', sans-serif;
+    color: black;
+   font-size: 17vw; 
+  text-align: center;
+   top: -78%; 
+   left: 50%; 
+   transform: translateX(-50%); 
+   position: absolute;
+   opacity: 0;
+   animation: fadeIn 4s ease-in forwards;
+   z-index: 2;
+
+
+}
+
+
+.op3{
+    opacity: 0%;
+
+
+}
+
+
+
+#covertitle4 p {
+    white-space: no-wrap;
+    word-spacing: 1em;
+    font-family: 'Engravers Old English Bold', sans-serif;
+    color: black;
+   font-size: 17vw; 
+  text-align: center;
+   top: -94%; 
+   left: 50%; 
+   transform: translateX(-50%); 
+   position: absolute;
+   opacity: 0;
+   animation: fadeIn 4s ease-in forwards;
+   z-index: 2;
+
+
+}
+
+
+
+.op4{
+    opacity: 0%;
+
+
+}
+
+
+
+
+
 
 
 .fade-in-text {
@@ -957,7 +1064,7 @@ margin-top: 2000px;
   position: absolute;
   animation: drawLine 3s linear forwards;
   left: 25%;
-   top: 47%;
+   top: 34%;
  
 }
 
@@ -969,7 +1076,7 @@ margin-top: 2000px;
   background-color: black; 
   position: absolute;
   left: 25%;
-  top: 76%;
+  top: 50%;
   animation: drawLine 3s linear forwards;
 }
 
